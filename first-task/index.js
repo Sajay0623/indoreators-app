@@ -6,7 +6,7 @@
         { id: 2, month: 'march', randomData: 30 },
         { id: 3, month: 'june', randomData: 22 },
       ];
-
+            
       const [data, setData] = React.useState(initialData);
       const [editMode, setEditMode] = React.useState(null);
       const [editedmonth, setEditedmonth] = React.useState('');
